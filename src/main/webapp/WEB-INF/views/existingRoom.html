@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Existing room</title>
+</head>
+<body>
+
+<form action="/rooms" >
+    <button>Start page</button>
+</form>
+
+<br><br><br>
+
+<p th:text="'Now you are in the room: ' + ${room.getName()}"></p>
+<p th:text="'with id: ' + ${room.getId()}"></p>
+<p th:text="'with unique key: ' + ${room.getSecureKey()}"></p>
+
+<br><br>
+
+<a>List of all positions</a>
+<br><br>
+<form th:method="POST" th:action="@{/rooms/addPositionUser/{key}(key=${room.getSecureKey()})}" th:object="${position}">
+    <div th:each="position : ${positions}">
+        <a  th:text="${position.getPositionId()}"></a>
+        <a  th:text="${position.getPositionName()}"></a>
+        <a  th:text="${position.getPositionPrice()}"></a>
+    </div>
+</form>
+
+<br><br><br>
+
+<!--<form th:method="GET" th:action="@{/rooms/getSum/{key}(key=${room.getSecureKey()})}">-->
+<!--    <h2>Welcome <span th:text="${sum}"></span></h2>-->
+<!--</form>-->
+
+<p>Add position</p>
+<form th:method="POST" th:action="@{/rooms/addPosition/{key}(key=${room.getSecureKey()})}" th:object="${position}">
+    <label for="positionName">You can add position: </label>
+    <input type="text" placeholder="name position" required th:field="*{positionName}" id="positionName"/>
+    <input type="number" placeholder="price position" required th:field="*{positionPrice}" id="positionPrice"/>
+    <br>
+    <input type="submit" value="Add">
+</form>
+
+<br><br><br>
+
+<p>Delete position</p>
+<form th:method="POST" th:action="@{/rooms/deletePosition/{key}(key=${room.getSecureKey()})}" th:object="${position}">
+    <label for="positionId">You can delete position: </label>
+    <input type="number" placeholder="id for delete" required th:field="*{positionId}"  id="positionId"/>
+    <br>
+    <input type="submit" value="Delete">
+</form>
+
+<br><br><br>
+
+<p>Change name</p>
+<form th:method="PATCH" th:action="@{/rooms/changeName/{key}(key=${room.getSecureKey()})}" th:object="${room}">
+    <label for="name">You can change the name of the room: </label>
+    <input type="text" th:field="*{name}" id="name"/>
+    <br>
+    <input type="submit" value="Change">
+</form>
+
+</body>
+</html>
