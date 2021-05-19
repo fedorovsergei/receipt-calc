@@ -5,7 +5,6 @@
     <title>Existing room</title>
 </head>
 <body>
-
 <form action="/rooms" >
     <button>Start page</button>
 </form>
@@ -19,12 +18,14 @@
 <hr/>
 <br/>
 <br/>
+
 <!--<hr/> Это разделение строки полосой-->
 <!--<br/> Это пустая строка-->
-
 <a>List of all positions</a>
+
 <hr/>
 <br>
+
 <form th:method="POST" th:action="@{/rooms/addPositionUser/{key}(key=${room.getSecureKey()})}" th:object="${position}">
     <div th:each="position : ${positions}">
         <a  th:text="${position.getPositionId()}"></a>

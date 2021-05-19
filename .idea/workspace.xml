@@ -10,17 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c99aaa65-c73a-4c96-a711-200b5cb3962f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReceiptCalc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ReceiptCalc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ru/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ru/controllers/FirstController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ru/service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ru/service/ServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/existingRoom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/existingRoom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ReceiptCalc/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/ReceiptCalc/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/classes/ru/controllers/FirstController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/classes/ru/controllers/FirstController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/classes/ru/service/ServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/classes/ru/service/ServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/controllers/FirstController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/controllers/FirstController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/service/ServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/service/ServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,11 +145,23 @@
       <workItem from="1621328200875" duration="217000" />
       <workItem from="1621328482950" duration="697000" />
       <workItem from="1621385703676" duration="663000" />
-      <workItem from="1621386406772" duration="18000" />
+      <workItem from="1621386406772" duration="320000" />
     </task>
+    <task id="LOCAL-00001" summary="add getSum">
+      <created>1621386652836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621386652836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add getSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="add getSum" />
   </component>
 </project>
