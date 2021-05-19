@@ -9,13 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edb4c8fd-3a26-47ba-8c7b-42c0149c1707" name="Default Changelist" comment="well done">
-      <change beforePath="$PROJECT_DIR$/ReceiptCalc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/classes/ru/controllers/FirstController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/classes/ru/controllers/FirstController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/classes/ru/service/ServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/classes/ru/service/ServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/controllers/FirstController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/controllers/FirstController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/service/ServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/service/ServiceImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="edb4c8fd-3a26-47ba-8c7b-42c0149c1707" name="Default Changelist" comment="git ignore add" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,6 +166,7 @@
       <workItem from="1621444298037" duration="79000" />
       <workItem from="1621444383043" duration="73000" />
       <workItem from="1621444477839" duration="7670000" />
+      <workItem from="1621452368068" duration="333000" />
     </task>
     <task id="LOCAL-00001" summary="well done">
       <created>1621452134512</created>
@@ -180,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621452134512</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="git ignore add">
+      <created>1621452476646</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621452476646</updated>
+    </task>
+    <task id="LOCAL-00003" summary="git ignore add">
+      <created>1621452641047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621452641047</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +209,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="well done" />
-    <option name="LAST_COMMIT_MESSAGE" value="well done" />
+    <MESSAGE value="git ignore add" />
+    <option name="LAST_COMMIT_MESSAGE" value="git ignore add" />
   </component>
 </project>
