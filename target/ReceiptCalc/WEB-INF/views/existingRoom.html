@@ -35,7 +35,6 @@
         <a  th:text="${position.getPositionPrice()}"></a>
         <a  th:text="${position.getPositionNameUser()}"></a>
         <form th:method="POST" th:action="@{/rooms/addPositionUser/{id}(id=${position.getPositionId()})}" th:object="${position}">
-
             <input type="text" placeholder="UserName" required th:field="*{positionNameUser}" id="positionNameUser" />
             <input type="submit" value="Add user">
 
@@ -55,6 +54,7 @@
 
 
 <div th:each="user : ${positionsUser}">
+
     <a th:text="${user.getKey()}"></a>
     <a th:text="${user.getValue()}"></a>
 </div>

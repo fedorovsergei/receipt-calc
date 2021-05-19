@@ -9,18 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edb4c8fd-3a26-47ba-8c7b-42c0149c1707" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReceiptCalc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ReceiptCalc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ru/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ru/controllers/FirstController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ru/models/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ru/models/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ru/service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ru/service/ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/existingRoom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/existingRoom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ReceiptCalc/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/ReceiptCalc/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/views/existingRoom.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/views/existingRoom.html" afterDir="false" />
+    <list default="true" id="edb4c8fd-3a26-47ba-8c7b-42c0149c1707" name="Default Changelist" comment="well done">
+      <change beforePath="$PROJECT_DIR$/ReceiptCalc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/classes/ru/controllers/FirstController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/classes/ru/controllers/FirstController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/classes/ru/service/ServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/classes/ru/service/ServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/controllers/FirstController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/controllers/FirstController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/service/ServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/service/ServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,15 +60,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,8 +171,16 @@
       <workItem from="1621444022078" duration="266000" />
       <workItem from="1621444298037" duration="79000" />
       <workItem from="1621444383043" duration="73000" />
-      <workItem from="1621444477839" duration="7485000" />
+      <workItem from="1621444477839" duration="7670000" />
     </task>
+    <task id="LOCAL-00001" summary="well done">
+      <created>1621452134512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621452134512</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,5 +197,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="well done" />
+    <option name="LAST_COMMIT_MESSAGE" value="well done" />
   </component>
 </project>
