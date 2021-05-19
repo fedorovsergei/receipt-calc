@@ -1,11 +1,11 @@
 package ru.controllers;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.stereotype.Controller;
 import ru.models.Position;
-import ru.service.ServiceImpl;
 import ru.models.Room;
+import ru.service.ServiceImpl;
 
 import java.util.List;
 
@@ -47,6 +47,7 @@ public class FirstController {
             model.addAttribute("positions", positions);
         }
         model.addAttribute("position", new Position());
+        model.addAttribute("positionsUser", service.createMap(key));
         model.addAttribute("sum", service.getSum(key));
         return "existingRoom";
     }
@@ -76,10 +77,10 @@ public class FirstController {
     }
 
 
-//    @PostMapping("addPositionUser/{key}")
-//    public String addPositionUser(@ModelAttribute("position") Position position, @PathVariable("key") String key) {
-//        System.out.println(position.getPositionNameUser());
-//        roomDAO.addUserName(roomDAO.getRoomForKey(key), position);
-//        return "redirect:/rooms/existingRoom?roomKey={key}";
-//    }
+    @PostMapping("addPositionUser/{id}")
+    public String addPositionUser(@ModelAttribute("position") Position position,
+                                  @PathVariable("id") String id) {
+        service.addUserName(id, position.getPositionNameUser());
+        return "redirect:/rooms/existingRoom?roomKey=" + service.getKeyPosition(id);
+    }
 }

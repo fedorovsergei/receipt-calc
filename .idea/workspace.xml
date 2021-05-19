@@ -9,16 +9,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c99aaa65-c73a-4c96-a711-200b5cb3962f" name="Default Changelist" comment="">
+    <list default="true" id="edb4c8fd-3a26-47ba-8c7b-42c0149c1707" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReceiptCalc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ReceiptCalc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/ru/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ru/controllers/FirstController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/ru/models/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ru/models/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/ru/service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ru/service/ServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/existingRoom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/existingRoom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ReceiptCalc/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/ReceiptCalc/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/views/existingRoom.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ReceiptCalc/WEB-INF/views/existingRoom.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -27,26 +48,39 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1shcHo4dnwU863kSdff5lv2NHEw" />
+  <component name="ProjectId" id="1slP4THvGuzlFKfXzTD1dKCtdaM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
-    <configuration name="start" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.45" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.46" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.46" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/rooms" />
-      <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ReceiptCalc:war exploded">
@@ -56,7 +90,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="e1d8d138-e0f6-47b8-a035-7a172cf5e4a9" />
+        <option name="BASE_DIRECTORY_NAME" value="3f024d7e-cb8a-4795-b4db-3b54b5f3efe1" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -64,7 +98,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50779" />
+        <option name="DEBUG_PORT" value="64317" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -137,31 +171,31 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c99aaa65-c73a-4c96-a711-200b5cb3962f" name="Default Changelist" comment="" />
-      <created>1621328194126</created>
+      <changelist id="edb4c8fd-3a26-47ba-8c7b-42c0149c1707" name="Default Changelist" comment="" />
+      <created>1621444015841</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1621328194126</updated>
-      <workItem from="1621328200875" duration="217000" />
-      <workItem from="1621328482950" duration="697000" />
-      <workItem from="1621385703676" duration="663000" />
-      <workItem from="1621386406772" duration="320000" />
+      <updated>1621444015841</updated>
+      <workItem from="1621444022078" duration="266000" />
+      <workItem from="1621444298037" duration="79000" />
+      <workItem from="1621444383043" duration="73000" />
+      <workItem from="1621444477839" duration="7485000" />
     </task>
-    <task id="LOCAL-00001" summary="add getSum">
-      <created>1621386652836</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1621386652836</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="add getSum" />
-    <option name="LAST_COMMIT_MESSAGE" value="add getSum" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

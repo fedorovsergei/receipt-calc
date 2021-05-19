@@ -64,4 +64,5 @@ public class Position {
     public void setRoomSecureKey(String roomSecureKey) {
         this.roomSecureKey = roomSecureKey;
     }
+
 }

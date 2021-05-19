@@ -12,7 +12,7 @@
 <hr/>
 
 <p th:text="'Now you are in the room: ' + ${room.getName()}"></p>
-<p th:text="'with id: ' + ${room.getId()}"></p>
+<!--<p th:text="'with id: ' + ${room.getId()}"></p>-->
 <p th:text="'with unique key: ' + ${room.getSecureKey()}"></p>
 
 <hr/>
@@ -23,17 +23,43 @@
 <!--<br/> Это пустая строка-->
 <a>List of all positions</a>
 
-<hr/>
+
+<br>
+<br>
 <br>
 
-<form th:method="POST" th:action="@{/rooms/addPositionUser/{key}(key=${room.getSecureKey()})}" th:object="${position}">
+
     <div th:each="position : ${positions}">
         <a  th:text="${position.getPositionId()}"></a>
         <a  th:text="${position.getPositionName()}"></a>
         <a  th:text="${position.getPositionPrice()}"></a>
+        <a  th:text="${position.getPositionNameUser()}"></a>
+        <form th:method="POST" th:action="@{/rooms/addPositionUser/{id}(id=${position.getPositionId()})}" th:object="${position}">
+            <input type="text" placeholder="UserName" required th:field="*{positionNameUser}" id="positionNameUser" />
+            <input type="submit" value="Add user">
+
+        </form>
     </div>
-</form>
+
+
 <p th:text="${sum}"></p>
+
+<hr/>
+
+
+<a>Sum for users</a>
+
+<br>
+<br>
+
+
+<div th:each="user : ${positionsUser}">
+
+    <a th:text="${user.getKey()}"></a>
+    <a th:text="${user.getValue()}"></a>
+</div>
+
+
 
 <hr/>
 
