@@ -101,6 +101,7 @@ public class ServiceImpl {
         for (Position position : list) {
             map.merge(position.getPositionNameUser(), position.getPositionPrice(), Integer::sum);
         }
+
         return map;
     }
 }
