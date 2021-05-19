@@ -71,16 +71,10 @@ public class ServiceImpl {
         positionRepository.delete(tmp);
     }
 
-    public int getSum(String secureKey){
-        return 5000;
+    public String getSum(String secureKey){
+        return "5000";
     }
 }
-
-
-
-
-
-
 
 //
 //    public void addUserName(Room room, Position positionTMP) {
@@ -93,4 +87,6 @@ public class ServiceImpl {
 //            }
 //        }
 //    }
+
+
 

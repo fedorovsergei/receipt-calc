@@ -13,7 +13,6 @@ import java.util.List;
 @RequestMapping("/rooms")
 public class FirstController {
 
-
     private final ServiceImpl service;
 
     public FirstController(ServiceImpl service) {
@@ -48,6 +47,7 @@ public class FirstController {
             model.addAttribute("positions", positions);
         }
         model.addAttribute("position", new Position());
+        model.addAttribute("sum", service.getSum(key));
         return "existingRoom";
     }
 
@@ -75,12 +75,6 @@ public class FirstController {
         return "redirect:/rooms/existingRoom?roomKey={key}";
     }
 
-    @GetMapping("/getSum/{key}")
-    public String getSum(@PathVariable("key") String key, Model model) {
-        model.addAttribute("sum", service.getSum(key));
-        service.getSum(key);
-        return "redirect:/rooms/existingRoom?roomKey={key}";
-    }
 
 //    @PostMapping("addPositionUser/{key}")
 //    public String addPositionUser(@ModelAttribute("position") Position position, @PathVariable("key") String key) {
